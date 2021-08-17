@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Travail en groupe GIT';
   message: string = "Miryem"
+  changeTextColor()
+  {
+    alert('Text color changed')
+  }
 }
