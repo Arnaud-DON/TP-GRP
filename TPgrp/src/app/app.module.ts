@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ComposantArnaudComponent } from './composant-arnaud/composant-arnaud.component';
 import { MyTimerComponent } from './my-timer/my-timer.component';
+import { ComposantPresentationComponent } from './composant-presentation/composant-presentation.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComposantArnaudComponent,
-    MyTimerComponent
+    MyTimerComponent,
+    ComposantPresentationComponent
   ],
   imports: [
     BrowserModule,

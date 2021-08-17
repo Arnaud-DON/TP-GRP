@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TPgrp"
+    }
+  },
+  "defaultProject": "TPgrp",
+  "cli": {
+    "analytics": "88187090-23dc-4fd9-b756-e122785fcf86"
+  }
 }
