@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TPgrp';
+  changeTextColor()
+  {
+    alert('Text color changed')
+  }
 }
